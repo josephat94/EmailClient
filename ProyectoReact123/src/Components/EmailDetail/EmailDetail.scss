@@ -1,0 +1,202 @@
+.EmailDetail {
+    background: transparent;
+    width: 59%;
+    height: 100%;
+    ;
+    margin-left: 0%;
+}
+
+.Global-Content {
+    font-family: Helvetica;
+    color: #a5a5a5;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    display: flex;
+    flex-direction: column;
+    font-size: 12px; //The correct with for childreen component is 94%
+    .Header {
+        padding-left: 7%;
+        width: 100%;
+        height: 9%;
+        background: transparent;
+        border-bottom: 1px solid rgb(194, 195, 195);
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        align-items: center;
+        .btn-delete {
+            width: 13%;
+            height: 40%;
+            background: #FC3401;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+        .btn-delete-block {
+            cursor: pointer;
+            width: 13%;
+            height: 40%;
+            background: #a5a5a554;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+        }
+        .btn-spam {
+            cursor: pointer;
+            margin-left: 2%;
+            border: .1px solid #a5a5a556;
+            width: 13%;
+            height: 40%;
+            background: #F4F5F5;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+        }
+        .btn-spam-block {
+            cursor: pointer;
+            margin-left: 2%;
+            width: 13%;
+            height: 40%;
+            background:#a5a5a554;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+        }
+        .btn-unread {
+            cursor: pointer;
+            margin-left: 42%;
+            width: 24%;
+            height: 40%;
+            padding-left: 5px;
+            padding-right: 5px;
+            background: #03B9ED;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+        }
+        .btn-unread-inactive{
+            cursor: pointer;
+            margin-left: 48%;
+            width: 22%;
+            height: 40%;
+            background: #a5a5a556;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            align-items: center;
+
+        }
+    }
+    .whoSent {
+        padding-left: 7%;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        color: #a5a5a5;
+        font-size: 20px;
+        font-weight: 400;
+        width: 94%;
+        height: 10%;
+        background: transparent;
+     
+    }
+    .tags-Content {
+        margin-left: 7%;
+        display: flex;
+        align-content: center;
+        align-items: center;
+        width: 92%;
+        height: 3%;
+        padding: 1%;
+         background: white;;
+         -webkit-box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.75);
+         -moz-box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.75);
+         box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.75);
+         border-radius: 3px 3px 3px 3px;
+ -moz-border-radius: 3px 3px 3px 3px;
+ -webkit-border-radius: 3px 3px 3px 3px;
+ border: 0px solid #000000; 
+
+.tag{
+        padding-left: .5rem;
+        padding-right: .5rem;
+     border:   .1px solid #a5a5a556;
+margin-left: 4px;
+-webkit-box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 3px -1px rgba(0,0,0,0.75);
+
+}
+    }
+    .mail-Content {
+        margin-left: 7%;
+        margin-top: 1rem;
+        
+        color: #a5a5a5;
+        width: 94%;
+        height: 40%;
+        background: white;
+        ;
+        -webkit-box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.75);
+        -moz-box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.75);
+        box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.75);
+        border-radius: 3px 3px 3px 3px;
+-moz-border-radius: 3px 3px 3px 3px;
+-webkit-border-radius: 3px 3px 3px 3px;
+
+.mail{
+margin-left: 6%;
+padding-top: 3%;
+    width:87%;
+    height: 89%;;
+    background: transparent;
+}
+
+.buttons-Content {
+    width: 100%;
+    height: 10%;
+    background: #F4F5F5;    
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+    -webkit-box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 7px -2px rgba(0,0,0,0.75);
+display: flex;
+align-content: center;
+align-items: center;
+justify-content: space-between;
+.btnReply{
+
+
+        width: 16%;
+        height: 100%;
+        background:  #03B9ED;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        border-radius: 0px 0px 3px 3px;
+        border-radius: 0px 0px 3px 3px;
+       
+   
+    
+}
+    
+}
+    }
+ 
+}
